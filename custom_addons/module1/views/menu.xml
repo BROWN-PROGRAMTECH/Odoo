@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <menuitem
+            id="person_menu"
+            name="Person"
+            sequence='200'
+            web_icon="module1,static/description/icon.png"
+    />
+
+    <menuitem
+            id="person_menu_detail"
+            name="Details"
+            parent='person_menu'
+            sequence='0'
+    />
+    <menuitem
+            id="person_menu_settings"
+            name="Settings"
+            parent='person_menu'
+            sequence='0'
+    />
+
+</odoo>
